@@ -28,6 +28,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pipenv install
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
@@ -44,3 +45,14 @@ jobs:
         python3 src/main.py --eg CSV
         python3 src/main.py --eg DATA
         python3 src/main.py --eg STATS
+    - name: Run tests
+      run: |
+        pipenv run coverage run src/main.py --eg ALL
+        pipenv run coverage report
+    - name: Get the xml output for coverage
+      run: |
+        coverage xml
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        files: ./coverage.xml

@@ -1,6 +1,7 @@
 # Group3-CSC510-HW2345
 Repo for homeworks 2,3,4, and 5 Group 3 of CSC510 Fall 2022 - Palash Rathod, Shreya Maheshwari, Kartik Soni, Nandini Mundra, and Tanvi Sinha
 
+[![codecov](https://codecov.io/github/tanvi9sinha/Group3-CSC510-HW2345/branch/main/graph/badge.svg?token=88f9f225-741b-4cfd-85c2-148ebb15962a)](https://codecov.io/github/tanvi9sinha/Group3-CSC510-HW2345)
 [![GitHub](https://img.shields.io/github/license/kartikson1/Group3-CSC510-HW2345)](https://github.com/kartikson1/Group3-CSC510-HW2345/blob/main/LICENSE)
 <!-- ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kartikson1/Group3-CSC510-Fall22/Python%20application) -->
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/kartikson1/Group3-CSC510-Fall22/Python%20application)](https://github.com/kartikson1/Group3-CSC510-HW2345/actions)
@@ -13,7 +14,7 @@ Repo for homeworks 2,3,4, and 5 Group 3 of CSC510 Fall 2022 - Palash Rathod, Shr
 [![GitHub last commit](https://img.shields.io/github/last-commit/kartikson1/Group3-CSC510-HW2345)](https://github.com/kartikson1/Group3-CSC510-HW2345/commits/main)
 [![DOI](https://zenodo.org/badge/533096328.svg)](https://zenodo.org/badge/latestdoi/533096328)
 [![GitHub forks](https://img.shields.io/github/forks/kartikson1/Group3-CSC510-HW2345?style=social)](https://github.com/kartikson1/Group3-CSC510-HW2345/network/members)
-[![codecov](https://codecov.io/github/tanvi9sinha/Group3-CSC510-HW2345/branch/main/graph/badge.svg?token=88f9f225-741b-4cfd-85c2-148ebb15962a)](https://codecov.io/github/tanvi9sinha/Group3-CSC510-HW2345)
+
 
 
 

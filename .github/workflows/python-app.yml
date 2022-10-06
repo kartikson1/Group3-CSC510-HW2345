@@ -56,5 +56,3 @@ jobs:
       uses: codecov/codecov-action@v3
       with:
         files: ./coverage.xml
-    - name: Documentation generator
-      run: pdoc3 --html -o docs/doc.html .
